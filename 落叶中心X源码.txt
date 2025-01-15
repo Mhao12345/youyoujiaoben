@@ -13,7 +13,7 @@ Notify("悠悠脚本", "永久免费","rbxassetid://17360377302",3)
 Notify("永久免费", "缝合制作","rbxassetid://17360377302",3)
 Notify("启动完成", "祝你玩的开心","rbxassetid://17360377302",5)
 
-local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/XiaoYunCN/UWU/main/Library%2FSilent%20ui'))()
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Mhao12345/youyoujiaoben/refs/heads/main/youyou.lua'))()
 local Window = Library:new("悠悠脚本 H");
 
 local creds = Window:Tab("公告",'16060333448')
