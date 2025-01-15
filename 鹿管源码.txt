@@ -6,15 +6,15 @@ function Notify(Title1, Text1, Icon1, Time1)
     Duration = Time1,
   })
 end
-Notify("鹿关中心", "作者诺子", "rbxassetid://17360377302", 3)
+Notify("悠悠中心", "作者浩", "rbxassetid://17360377302", 3)
 Notify("永久免费", "祝你玩的开心","rbxassetid://17360377302",3)
 Notify("永久免费", "没有盈利","rbxassetid://17360377302",3)
-Notify("鹿关中心", "永久免费","rbxassetid://17360377302",3)
+Notify("悠悠中心", "永久免费","rbxassetid://17360377302",3)
 Notify("拒绝跑路", "拒绝倒卖","rbxassetid://17360377302",3)
 Notify("启动完成", "祝你玩的开心","rbxassetid://17360377302",5)
 
-local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/XiaoYunCN/UWU/main/Library%2FSilent%20ui'))()
-local Window = Library:new("鹿关中心 X");
+local Library = loadstring(game:HttpGet(''))()
+local Window = Library:new("悠悠中心 X");
 
 local creds = Window:Tab("公告",'16060333448')
 local bin = creds:section("信息",true)
@@ -117,15 +117,15 @@ bin:Label("你的用户名:"..game.Players.LocalPlayer.Name)
 bin:Label("你的注入器:"..identifyexecutor())
 bin:Label("服务器id:"..game.GameId)
 
-about:Label("作者kr X")
-about:Label("作者qq3648447529")
+about:Label("作者浩 X")
+about:Label("作者qq1014613702")
 about:Label("正在努力优化")
 about:Label("请勿倒卖")
 about:Button("复制作者QQ", function()
-    setclipboard("3648447529")
+    setclipboard("1014613702")
 end)
 about:Button("复制QQ群", function()
-    setclipboard("341063007")
+    setclipboard("1014613702")
 end)
 about:Toggle("移除UI辉光", "DHG", false, function(DHG)
     if DHG then
