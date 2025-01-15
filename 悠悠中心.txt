@@ -65,8 +65,8 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("作者","KK")
-Tab:AddParagraph("美丽动人的脚本脚本")
+Tab:AddParagraph("作者","浩")
+Tab:AddParagraph("悠悠中心")
 
 
 Tab:AddButton ({
