@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mhao12345/youyoujiaoben/refs/heads/main/%E6%82%A0%E6%82%A0%E4%B8%AD%E5%BF%83.txt"))()
+local OrionLib = loadstring(game:HttpGet(""))()
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
 local player = game.Players.LocalPlayer
@@ -65,8 +65,8 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("作者","浩")
-Tab:AddParagraph("悠悠中心")
+Tab:AddParagraph("作者","KK")
+Tab:AddParagraph("美丽动人的脚本脚本")
 
 
 Tab:AddButton ({
