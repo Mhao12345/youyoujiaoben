@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(""))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mhao12345/youyoujiaoben/refs/heads/main/%E6%82%A0%E6%82%A0%E4%B8%AD%E5%BF%83.txt"))()
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
 local player = game.Players.LocalPlayer
